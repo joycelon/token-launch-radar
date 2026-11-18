@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Launch Radar — pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo" aria-hidden="true"><span></span></div>
+    <div>
+      <h1>Token Launch Radar</h1>
+      <p class="tagline">Protocols that record no token yet, priced as if they launched today — and how to farm each one.</p>
+    </div>
+  </div>
+  <div class="stamp" id="stamp"></div>
+</header>
+<nav class="tabs" id="tabs">
+  <button data-tab="board" class="on">Radar board</button>
+  <button data-tab="live">Live tokens</button>
+  <button data-tab="method">Model &amp; method</button>
+</nav>
+<main id="app" aria-busy="true"></main>
+<footer class="foot" id="foot"></footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
